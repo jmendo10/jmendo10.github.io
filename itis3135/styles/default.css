@@ -1,0 +1,60 @@
+body
+{
+	font-family: Cochin;
+	color: darkolivegreen ;
+	background-color:ivory;
+    margin-left: 75px;
+	margin-right: 75px;
+}
+
+
+header, footer
+{
+	text-align: center;
+	color:darkolivegreen;
+	font-weight: bold;
+}
+
+h1, h2, h3
+{
+	color: darkolivegreen;
+	font-family: Cambria, Cochin, Georgia, Times;
+	text-align: center;
+}
+
+h3
+{
+	font-size: 200%;
+	line-height: 0px;
+}
+
+a
+{
+	text-decoration: none;
+	color:purple;
+}
+
+a:hover
+{
+	text-decoration: overline underline;
+}
+
+figure
+{
+	text-align: center;
+  
+
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+
+nav
+{
+	text-align: center;
+}
+
+
