@@ -8,7 +8,7 @@
   body {
     margin: 0;
     padding: 0;
-    background: #b8b8b865;
+    background: #13131362;
     }
   
     .Calculator {
@@ -25,22 +25,22 @@
         font-size: 2rem;
         border: #000000;
         outline: none;
-        background-color: #b8b8b865;
+        background-color: #5d9164b0;
       }
   
         .Calculator > button:hover {
-          background-color: #7700ff;
+          background-color: #00000075;
         }
   
         .span-two {
           grid-column: span 2;
           color: #000000;
-          background-color: #00000000;
+          background-color: #000000;
         }
   
         .output{
           grid-column: 1 / -1;
-          background-color: #b8b8b865;
+          background-color: #5200d6ab;
           display: flex;
           align-items: flex-end;
           justify-content: space-around;
