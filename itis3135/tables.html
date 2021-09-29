@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+	<link href="styles/activity2.css" rel="stylesheet" type="text/css" >
 	<title>Justin Mendoza, ITIS3135, HTML Tables</title>
 </head>
 
@@ -11,95 +11,147 @@
 			<h1>Justin Mendoza >> ITIS3135</h1>
 	</header>
 	<nav>
-		<a href="tables.html">Introduction</a> 
-        ||
+		<a href="tables.html">Tables</a> 
 		<a href="contract.html">Contract</a>
+        <a href="introduction.html">Introduction</a>
+        <a href="HTML Forms.html">Forms</a>
+        <a href="website_evaluations.html">Evaluations</a>
 	</nav>	
 	
 	<main>
 		<h2>HTML Tables</h2>
-        <h3>Employee Data in Complex Table</h3>
+
+        <h3>My Tabular Data</h3>
+
+        <ol>
+            <li>Daryle sammt JSdwqe@hotmail.com 12</li>
+            <li>Conrad Nicomachus 3walid-taza4@btcmod.com 41</li>
+            <li>Darion Bernat jkimhyuna286t@gmailvn.net 23</li>
+            <li>Cainneach Anand lmohamed_alaaa22p@kusaomachihotel.com 2</li>
+            <li>Urbonas Siva hmin@muvilo.net 10</li>
+            <li>Bernice Cato mansoor.mkc5@notvn.com 5</li>
+            <li>Pooja Vladimer ynor@archfreelib.site 3</li>
+        </ol>
+
+        <h3>Employee Data in Simple table</h3>
+
 		<table>
             <thead>
                 <tr>
-                    <th>Department</th>
                     <th>Name</th>
                     <th>E-mail</th>
                     <th class="right">Years of Service</th>
-                    <th>Marketing</th>
-                    <th>Monthly Salary</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Sales</td>
                     <td>Daryle sammt</td>
                     <td>JSdwqe@hotmail.com</td>
                     <td class="right">12</td>
-                    <td></td>
-                    <td>$3,400</td>
                 </tr>
                 <tr>
-                    <td>Marketing</td>
                     <td>Conrad Nicomachus</td>
                     <td>3walid-taza4@btcmod.com</td>
                     <td class="right">41</td>
-                    <td>Alta</td>
-                    <td>$6,100</td>
                 </tr>
                 <tr>
-                    <td>Support</td>
                     <td>Darion Bernat</td>
                     <td>jkimhyuna286t@gmailvn.net</td>
                     <td class="right">23</td>
-                    <td></td>
-                    <td>$5,500</td>
                 </tr>
                 <tr>
-                    <td>Marketing</td>
                     <td>Cainneach Anand</td>
                     <td>lmohamed_alaaa22p@kusaomachihotel.com</td>
                     <td class="right">2</td>
-                    <td></td>
-                    <td>$4,500</td>
                 </tr>
                 <tr>
-                    <td>Sales</td>
                     <td>Urbonas Siva</td>
                     <td>hmin@muvilo.net</td>
                     <td class="right">10</td>
-                    <td>Dycha</td>
-                    <td>$7,000</td>
                 </tr>
                 <tr>
-                    <td>Marketing</td>
                     <td>Bernice Cato</td>
                     <td>mansoor.mkc5@notvn.com</td>
                     <td class="right">5</td>
-                    <td></td>
-                    <td>$3,000</td>
                 </tr>
                 <tr>
-                    <td>Support</td>
                     <td>Pooja Vladimer</td>
                     <td>ynor@archfreelib.site</td>
                     <td class="right">3</td>
-                    <td>Salats</td>
-                    <td>$5,000</td>
-                </tr>
-                <tr>
-                    <th colspan="3">Total Years of Service</th>
-                    <td>96</td>
-                    <td></td>
-                    <td>$34,500</td>
                 </tr>
             </tbody>
         </table>
 
+        <h3>Employee Data in Complex table</h3>
+
         <figure>
-            <figcaption>
-                Employee Information of occupation
-            </figcaption>
+            <table>
+				<thead>
+					<tr>
+                        <th>Employee Position</th>
+                        <th>Name</th>
+                        <th>E-mail</th>
+                        <th class="right">Years of Service</th>
+                        <th>Montly Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Senior Designer</td>
+                        <td>Daryle sammt</td>
+                        <td>JSdwqe@hotmail.com</td>
+                        <td class="right">12</td>
+                        <td class="right">$9,320</td>
+                    </tr>
+                    <tr>
+                        <td>Junior Designer</td>
+                        <td>Conrad Nicomachus</td>
+                        <td>3walid-taza4@btcmod.com</td>
+                        <td class="right">41</td>
+                        <td class="right">$7,200</td>
+                    </tr>
+                    <tr>
+                        <td>Sales Manager</td>
+                        <td>Darion Bernat</td>
+                        <td>jkimhyuna286t@gmailvn.net</td>
+                        <td class="right">23</td>
+                        <td class="right">$5,600</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Data scientist</td>
+                        <td>Cainneach Anand</td>
+                        <td>lmohamed_alaaa22p@kusaomachihotel.com</td>
+                        <td class="right">2</td>
+                        <td class="right">$4,578</td>
+                    </tr>
+                    <tr>
+                        <td>Urbonas Siva</td>
+                        <td>hmin@muvilo.net</td>
+                        <td class="right">10</td>
+                        <td class="right">$3,333</td>
+                    </tr>
+                    <tr>
+                        <td>Bernice Cato</td>
+                        <td>mansoor.mkc5@notvn.com</td>
+                        <td class="right">5</td> 
+                        <td class="right">$2,890</td>                   
+                    </tr>
+                    <tr>
+                        <td>Intern</td>
+                        <td>Pooja Vladimer</td>
+                        <td>ynor@archfreelib.site</td>
+                        <td class="right">3</td>
+                        <td class="right">$2,890</td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">Total Years of Service/Month Salary</th>
+                        <td class="right">96</td>
+                        <td class="right">$35,811</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <figcaption>Employees table.</figcaption>
         </figure>
         
 	
