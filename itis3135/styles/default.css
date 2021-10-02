@@ -1,29 +1,28 @@
 body
 {
 	font-family: Cochin;
-	color: gainsboro ;
-	background-color:rgba(98, 102, 91, 0.795);
+	color: rgb(0, 0, 0) ;
+	background-color:rgba(130, 131, 127, 0.788);
     margin-left: 75px;
 	margin-right: 75px;
-	font-size: 15px;
+	font-size: 20px;
 }
 
 
 header, footer
 {
 	text-align: center;
-	color:black;
+	color:rgb(177, 27, 27);
 	font-weight: bold;
-	font-size: 60px;
+	font-size: 40px;
 }
 
 h1, h2, h3
 {
-	color: rgb(0, 0, 0);
+	color: rgb(177, 27, 27);
 	font-family: Cambria, Cochin, Georgia, Times;
 	text-align: center;
 	font-size: 60px;
-	padding: 5px;
 }
 
 table tr:nth-child(odd) {
@@ -33,14 +32,13 @@ table tr:nth-child(odd) {
 
 h2
 {
-	font-size: 200%;
+	font-size: 50%;
 	line-height: 0px;
-	font-size: 18px;
+	font-size: 45px;
 }
 
 a
 {
-	text-decoration: none;
 	color:rgb(0, 0, 0);
 	font-size: 18px;
 }
