@@ -2,7 +2,7 @@ body
 {
 	font-family: Cochin;
 	color: rgb(0, 0, 0) ;
-	background-color:rgba(130, 131, 127, 0.788);
+	background-color:rgba(177, 177, 177, 0.568);
     margin-left: 75px;
 	margin-right: 75px;
 	font-size: 20px;
@@ -12,22 +12,22 @@ body
 header, footer
 {
 	text-align: center;
-	color:rgb(177, 27, 27);
+	color:rgba(207, 81, 81, 0.616);
 	font-weight: bold;
 	font-size: 40px;
 }
 
 h1, h2, h3
 {
-	color: rgb(177, 27, 27);
+	color: rgb(207, 81, 81, 0.616);
 	font-family: Cambria, Cochin, Georgia, Times;
 	text-align: center;
 	font-size: 60px;
 }
 
 table tr:nth-child(odd) {
-	background-color: rgb(0, 0, 0);
-	color: rgb(0, 0, 0); }
+	background-color: rgb(255, 255, 255);
+	color: rgb(207, 81, 81, 0.616); }
 
 
 h2
@@ -39,7 +39,7 @@ h2
 
 a
 {
-	color:rgb(0, 0, 0);
+	color:rgba(41, 71, 136, 0.774);
 	font-size: 18px;
 }
 
@@ -54,14 +54,14 @@ a:hover
 
 figure
 {
-	text-align: center;
+	text-align: left;
   
 
 }
 
 figcaption
 {
-	font-style: italic;
+	text-align: left;
 }
 
 
