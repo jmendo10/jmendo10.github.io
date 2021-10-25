@@ -70,4 +70,14 @@ nav
 	text-align: center;
 }
 
+ul {
+	justify-content: center;
+	display: flex;
+}
+
+
+p
+{
+	text-align: center;
+}
 
