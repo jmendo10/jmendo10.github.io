@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <link href="styles/default.css" rel="stylesheet" type="text/css" >
+  <script src="scripts/w3.js"></script>
+  <script src="scripts/formSub.js"></script>
+  <title>Justin Mendoza, ITIS 3135, Brand</title>
+
+</head>
+<body>
+  
+  <header w3-include-html="./components/header.html"></header>
+
+  <main>
+    <h2>Welcome to Jumpy Megamouth Shark Studios!</h2>
+
+    <p>Hello we are Jumpy Megamouth Shark Studios! A new upstart specializing in manufacturing Turbochargers, Superchargers, and now Procharg
+    A small team of friends prusing a new like minded goal to change the market one sale at a time! We have specialists from around the world assisting to bring the best of the best that we can offer.</p>
+
+    <ol type="A">
+      <li>Verified and trusted by multiple racing teams!</li>
+      <li>We specialize in all cars!</li>
+      <li>Lifetime warranty guaranteed!</li>
+      <li>Rival prices to our competitors!</li>
+      <li>24/7 Service avaliable to all customers!</li>
+    </ol>
+
+    <p>We would love for you to try our products, we can only guarantee the best. Please dont hesitate to message us at 910-343-9224 or at JMSS@gr4r
+    You can also stop by the office at 862 Daylene Drive located in Wayne, MI!</p>
+
+    <h2>Contact Us!</h2>
+    <form>
+      <label>First Name: </label>
+      <input type="text" id="fname" name="fname" placeholder="First Name" required>
+      <label>Last Name: </label>
+      <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+      <label>Email: </label>
+      <input type="text" id="email" name="email" placeholder="Email" required>
+      <label>Phone Number: </label>
+      <input type="text" id="phone" name="phone" placeholder="Phone" required>
+      <button type="button" id="submit" onclick="slide()">Submit</button>
+  </form>
+
+  </main>
+
+  <div w3-include-html="components/footer.html"></div>
+	<script> w3.includeHTML(); </script>
+
+</body>
+</html>
