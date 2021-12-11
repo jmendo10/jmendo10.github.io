@@ -56,4 +56,28 @@ figure {
     justify-content:center;
 }
 
+.bx-wrapper, .bx-window {
+    margin:0 auto; 
+    width:940px !important;
+}
 
+.pager{
+    width:940px !important; 
+}
+
+#slider1 li{
+    margin-left:0px !important;
+}
+
+
+
+.accordion h1{
+    font-size: 90%;
+    text-align: center;
+    
+}
+
+.accordion div{
+    font-size: 90%;
+    text-align: center;   
+}
