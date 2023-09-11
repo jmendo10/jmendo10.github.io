@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+    <script src="scripts/arrays.js" defer></script>
+	<title>Justin Mendoza, ITIS3135, HTML Tables</title>
+</head>
+
+<body>
+	<header>
+			<h1>Justin Mendoza >> ITIS3135</h1>
+	</header>
+	<nav>
+		<a href="tables.html">Tables</a> 
+		<a href="contract.html">Contract</a>
+        <a href="introduction.html">Introduction</a>
+        <a href="html_forms.html">Forms</a>
+        <a href="website_evaluations.html">Evaluations</a>
+	</nav>	
+	
+	<main>
+		<h2>Arrays</h2>
+        <form id="dropdown">
+            <label for="employeeNames">Select Employee:</label>
+            <select id="employeeNames" name="employeeNames">
+                <option value="Pooja Vladimer">Pooja Vladimer</option>
+                <option value="Bernice Cato">Bernice Cato</option>
+                <option value="Urbonas Siva">Urbonas Siva</option>
+                <option value="Cainneach Anand">Cainneach Anand</option>
+                <option value="Darion Bernat">Darion Bernat</option>
+                <option value="Conrad Nicomachus">Conrad Nicomachus</option>
+                <option value="Daryle sammt">Daryle sammt</option>
+            </select>
+        </form>
+
+    <div class="Buttons">
+        <button onclick="addSalary()">Add Salary</button>
+        <button onclick="displayResults()">Display Results</button>
+        <button onclick="displaySalary()">Display Salary</button>
+    </div>
+    
+    <p>Average Salary: <span id="avg">{$$$}</span> - Highest Salary: <span id="high">{$$$}</span></p>
+
+    <table id="data">
+        <tr>
+            <th>Name</th>
+            <th>Salary</th>
+        </tr>
+    </table>
+
+    </main>
+	
+	<footer>
+		<br/>
+		<nav>
+		    <a href="https://webpages.uncc.edu/jmendo10/" target="_blank">Charlotte.edu</a> 
+		    <a href="https://github.com/jmendo10" target="_blank">Github</a> 
+		    <a href="https://jmendo10.github.io/" target="_blank">Github.io</a> 
+		    <a href="https://jmendo10.github.io/itis3135/" target="_blank">ITIS 3135 Github Pages</a> 
+		    <a href="https://www.codecademy.com/jmendo10/" target="_blank">Codecademy</a> 
+		    <a href="https://www.freecodecamp.org/jmendo10/" target="_blank">freeCodeCamp</a> 
+		    <a href="https://jsfiddle.net/user/jmendo10/" target="_blank">JSFiddle</a> 
+		    <a href="https://www.linkedin.com/in/justin-mendoza-3a057721b/" target="_blank">LinkedIn</a> 
+		</nav>
+		<br />
+
+        <p>Page built by JUSTINO MEDECIMO PRODUCTIONS</p>
+		
+		<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fjmendo10%2Fitis3135%2Ftables.html">
+			<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+		</a>
+
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fjmendo10%2Fitis3135%2Fstyles%2Factivity2.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                <img style="border:0;width:88px;height:31px"
+                    src="https://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!" />
+        </a>
+	
+	
+	</footer>
+
+</body>
+
+</html>

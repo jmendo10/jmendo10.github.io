@@ -1,0 +1,72 @@
+header, footer
+{
+	text-align: center;
+	color:rgba(207, 81, 81, 0.616);
+	font-weight: bold;
+	font-size: 40px;
+}
+
+h1, h2, h3
+{
+	color: rgb(207, 81, 81, 0.616);
+	font-family: Cambria, Cochin, Georgia, Times;
+	text-align: center;
+	font-size: 60px;
+}
+
+table tr:nth-child(odd) {
+	background-color: rgb(255, 255, 255);
+	color: rgb(207, 81, 81, 0.616); }
+
+
+h2
+{
+	font-size: 50%;
+	line-height: 0px;
+	font-size: 45px;
+}
+
+a
+{
+	color:rgba(41, 71, 136, 0.774);
+	font-size: 18px;
+}
+
+.text-center {
+	text-align: center;
+  }
+
+a:hover
+{
+	text-decoration: overline underline;
+}
+
+figure
+{
+	text-align: left;
+  
+
+}
+
+figcaption
+{
+	text-align: left;
+}
+
+
+nav
+{
+	text-align: center;
+}
+
+ul {
+	justify-content: center;
+	display: flex;
+}
+
+
+p
+{
+	text-align: center;
+}
+
