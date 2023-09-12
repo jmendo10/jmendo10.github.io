@@ -1,29 +1,12 @@
-async function checkGrammar() {
-    const text = document.getElementById('textInput').value;
-    const apiUrl = 'https://api.languagetool.org/v2/check';
-    
-    const response = await fetch(apiUrl, {
-        method: 'POST',
-        body: JSON.stringify({
-            text: text,
-            language: 'en'
-        }),
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    });
+function generatePassword() {
+    const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+[]{}|;:,.<>?";
+    let passwordLength = parseInt(document.getElementById("length").value);
+    let generatedPassword = "";
 
-    const data = await response.json();
-    displayResults(data);
-}
+    for (let i = 0; i < passwordLength; i++) {
+        const randomIndex = Math.floor(Math.random() * charset.length);
+        generatedPassword += charset[randomIndex];
+    }
 
-function displayResults(data) {
-    const resultsDiv = document.getElementById('results');
-    resultsDiv.innerHTML = '';
-
-    data.matches.forEach(match => {
-        const errorText = `<p><strong>Error:</strong> ${match.message}</p>`;
-        const correctedText = `<p><strong>Correction:</strong> ${match.replacements[0] ? match.replacements[0].value : 'No suggestion'}</p>`;
-        resultsDiv.innerHTML += errorText + correctedText;
-    });
+    document.getElementById("password").value = generatedPassword;
 }
